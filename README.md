@@ -1,2 +1,2 @@
 # viz-wghh-map
-Show results of "Wem gehört Hamburg" crowd research on a pixi.js-powered map
+Show results of [Wem gehört Hamburg](http://wem-gehoert-hamburg.de) crowd research on a pixi.js-powered map
