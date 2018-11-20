@@ -6,9 +6,20 @@ import slider from './slider.js'
   <rent-story-switcher stories={ stories } />
 
   <article each={ stories } class="wghh-rent-story wghh-rent-story--type-{ ownerType } { wghh-rent-story--visible : parent.i === i }">
-    <h1 class="wghh-rent-story__owner-name">Eigentümer: { parent.typeName }</h1>
+    <h1 class="wghh-rent-story__owner-name">Mietergeschichte zu { parent.typeName }</h1>
     <p class="wghh-rent-story__text">{ text }</p>
     <span class="wghh-rent-story__source">Mieter{ i % 2 === 0 ? '' : 'in' }* aus { district }</span>
+  </article>
+
+  <article class="wghh-rent-stories__explanation">
+    <strong>* Mieter{ i % 2 === 0 ? '' : 'in' }</strong>
+    <p>
+      Wir haben bei unserer <a href="http://wem-gehoert-hamburg.de">Crowd-Recherche</a>
+      neben Daten zu den Eigentümern auch viele individuelle
+      <em>Mietergeschichten</em> erhalten. Wir veröffentlichen hier einige
+      anonymisiert, die besonders für den Eigentümer-Typ
+      <em>{ typeName }</em> stehen.
+    </p>
   </article>
 
   riot.C.on(riot.E.selectType, id => {

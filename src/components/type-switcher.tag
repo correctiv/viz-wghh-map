@@ -1,6 +1,10 @@
 import './type-detail.tag'
 
 <type-switcher class="wghh-typeswitcher">
+  <p>
+    Wähle einen Eigentümer-Typ, um mehr Informationen zu erhalten und
+    die Daten*, die wir zu diesem Typen haben, auf der Karte anzuzeigen.
+  </p>
 
   <span each={ types }
     onclick={ () => parent.selectType(id) }
