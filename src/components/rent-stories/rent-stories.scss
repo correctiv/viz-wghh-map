@@ -1,0 +1,87 @@
+@import '../../vars.scss';
+@import '../../mixins.scss';
+@import './rent-story-switcher.scss';
+
+.wghh-rent-stories {
+  display: block;
+  position: relative;
+  height: 300px;
+  width: 100%;
+
+  .wghh-rent-story {
+    font-family: $font-sans;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    @include transition(opacity);
+    border: 2px solid grey;
+    padding: 10px;
+
+    &--visible {
+      z-index: 1;
+      opacity: 1;
+      @include transition(opacity);
+    }
+
+    &__owner-name {
+      margin-bottom: 0 !important;
+    }
+
+    &__text {
+      margin: 0;
+
+      &:before, &:after {
+        font-weight: 700;
+        font-family: $font-serif;
+      }
+
+      &:before {
+        content: "\BB ";
+      }
+
+      &:after {
+        content: " \AB";
+      }
+    }
+
+    &__source {
+      display: block;
+      position: absolute;
+      bottom: -50px;
+      right: 0;
+      font-weight: 700;
+    }
+
+    &:after {
+      position: absolute;
+      bottom: -20px;
+      right: 30px;
+      content: '';
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 25px 20px 0;
+      border-color: transparent grey transparent transparent;
+    }
+
+    // type coloring
+    @for $i from 1 through length($type-colors) {
+      &--type-#{$i} {
+        border-color: nth($type-colors, $i);
+      }
+      &--type-#{$i}:after {
+        border-right-color: nth($type-colors, $i);
+      }
+      &--type-#{$i} .wghh-rent-story__owner-name {
+        color: nth($type-colors, $i);
+      }
+      &--type-#{$i} .wghh-rent-story__source {
+        color: nth($type-colors, $i);
+      }
+      &--type-#{$i} .wghh-rent-story__text:before, &--type-#{$i} .wghh-rent-story__text:after {
+        color: nth($type-colors, $i);
+      }
+    }
+  }
+}

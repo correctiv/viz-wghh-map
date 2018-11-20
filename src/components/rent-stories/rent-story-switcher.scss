@@ -1,0 +1,45 @@
+@import '../../mixins.scss';
+@import '../../vars.scss';
+
+.wghh-rent-story-switcher {
+  display: block;
+  width: 100%;
+
+  &__button {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer;
+
+    &-inner {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: $white;
+      opacity: 1;
+      @include transition(opacity);
+
+      &:hover {
+        opacity: .5;
+      }
+    }
+
+    &--active &-inner {
+      opacity: 0;
+    }
+
+    // type coloring
+    @for $i from 1 through length($type-colors) {
+      &--type-#{$i} {
+        background-color: nth($type-colors, $i);
+      }
+    }
+  }
+}

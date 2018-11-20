@@ -1,0 +1,17 @@
+@import '../vars.scss';
+
+.wghh-type {
+  display: block;
+  margin-top: 20px;
+
+  &__name {
+    margin-bottom: 0 !important;
+  }
+
+  // type coloring
+  @for $i from 1 through length($type-colors) {
+    &--type-#{$i} &__name {
+      color: nth($type-colors, $i);
+    }
+  }
+}

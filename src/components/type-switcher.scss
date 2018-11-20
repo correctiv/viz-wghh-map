@@ -1,0 +1,23 @@
+@import '../vars.scss';
+@import './type-detail.scss';
+
+.wghh-typeswitcher {
+  font-family: $font-sans;
+  display: block;
+  width: 100%;
+
+  &__button {
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: solid 3px $white;
+
+    // type coloring
+    @for $i from 1 through length($type-colors) {
+      &--type-#{$i} {
+        border-bottom-color: nth($type-colors, $i);
+        color: nth($type-colors, $i);
+      }
+    }
+  }
+}
