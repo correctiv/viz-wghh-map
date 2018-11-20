@@ -119,7 +119,7 @@ module.exports = (env, argv) => {
     }
   } else {
     config.module.rules = prodRules
-    config.output.publicPath = '/'
+    config.output.publicPath = './'
     config.plugins.push(
       new MiniCssExtractPlugin({
         filename: 'bundle-[hash].css'
