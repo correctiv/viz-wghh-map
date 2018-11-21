@@ -94,7 +94,8 @@ const config = {
   },
 
   output: {
-    filename: 'bundle-[hash].js',
+    // filename: 'bundle-[hash].js',
+    filename: 'bundle.js',
     publicPath: `http://localhost:${devServerPort}/`,
     path: dest
   },
@@ -122,7 +123,8 @@ module.exports = (env, argv) => {
     config.output.publicPath = './'
     config.plugins.push(
       new MiniCssExtractPlugin({
-        filename: 'bundle-[hash].css'
+        // filename: 'bundle-[hash].css'
+        filename: 'bundle.css'
       })
     )
   }
