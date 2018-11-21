@@ -1,4 +1,5 @@
 @import '../vars.scss';
+@import '../mixins.scss';
 @import './type-detail.scss';
 
 .wghh-typeswitcher {
@@ -8,16 +9,36 @@
 
   &__button {
     margin-right: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
     display: inline-block;
-    border-bottom: solid 3px $white;
+    // border-bottom: solid 3px $white;
+    border: 1px solid $red;
+    padding: 4px 10px;
+    color: $red;
+    @include transition(background-color);
 
-    // type coloring
-    @for $i from 1 through length($type-colors) {
-      &--type-#{$i} {
-        border-bottom-color: nth($type-colors, $i);
-        color: nth($type-colors, $i);
+    &:hover {
+      @include transition(background-color);
+      background-color: lighten($red, 30%);
+    }
+
+    &--active {
+      color: white;
+      background-color: $red;
+
+      &:hover {
+        color: white;
+        background-color: $red;
       }
     }
+
+    // type coloring
+    // @for $i from 1 through length($type-colors) {
+    //   &--type-#{$i} {
+    //     border-bottom-color: nth($type-colors, $i);
+    //     color: nth($type-colors, $i);
+    //   }
+    // }
   }
 }

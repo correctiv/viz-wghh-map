@@ -52,7 +52,7 @@ import DATA from './data.js'
 
   this._init = () => {
     this.app = initPixi(this.element, riot.S)
-    draw(this.app.stage, DATA, this.SHARED.colors[0], .1, 2, false)
+    draw(this.app.stage, DATA, this.SHARED.colors[0], .2, 1, false)
     // initial colorize
     riot.C.trigger(riot.E.selectType, 2)
   }

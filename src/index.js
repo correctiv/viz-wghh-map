@@ -13,5 +13,13 @@ import './event_handling.js'
 // mount app
 import mixin from './shared/mixin.js'
 import './app.tag'
-riot.mixin(mixin)
-riot.mount('[data-mount="wghh-map"]', 'wghh-map')
+
+if (typeof $ !== 'undefined') {
+  $.ready(() => {
+    riot.mixin(mixin)
+    riot.mount('[data-mount="wghh-map"]', 'wghh-map')
+  })
+} else {
+  riot.mixin(mixin)
+  riot.mount('[data-mount="wghh-map"]', 'wghh-map')
+}
