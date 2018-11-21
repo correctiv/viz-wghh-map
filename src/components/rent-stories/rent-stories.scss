@@ -6,6 +6,7 @@
   display: block;
   position: relative;
   width: 100%;
+  padding-bottom: 70px;
 
   &__explanation {
     margin-top: 60px;
@@ -22,6 +23,8 @@
 
   .wghh-rent-story {
     font-family: $font-sans;
+    background-color: $red;
+    color: white;
     height: 0;
     position: relative;
     z-index: -1;
@@ -44,14 +47,14 @@
       letter-spacing: 0;
       line-height: 28px;
       margin-bottom: 0 !important;
-      color: $red;
+      // color: $red;
     }
 
     &__text {
       margin: 0;
 
       &:before, &:after {
-        color: $red;
+        // color: $red;
         font-weight: 700;
         font-family: $font-serif;
       }

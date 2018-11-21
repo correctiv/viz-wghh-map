@@ -2,3 +2,17 @@
 @import './components/type-switcher.scss';
 @import './components/canvas-map/canvas-map.scss';
 @import './components/rent-stories/rent-stories.scss';
+@import './components/map-footer.scss';
+
+// base
+.wghh-map-wrapper {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+
+  .wghh-map-anchor {
+    display: block;
+    height: 0;
+  }
+}
