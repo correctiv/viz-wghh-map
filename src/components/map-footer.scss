@@ -1,5 +1,5 @@
 @import '../vars.scss';
-@import '../mixins.scss';
+// @import '../mixins.scss';
 
 .wghh-map-footer {
   position: absolute;
@@ -7,11 +7,11 @@
   right: 0;
   bottom: 0;
 
-  @include bp-sm {
-    bottom: 25px;
-    left: 0;
-    right: auto;
-  }
+  // @include bp-sm {
+  //   bottom: 25px;
+  //   left: 0;
+  //   right: auto;
+  // }
 
   &__info-sign {
     color: grey;
@@ -20,7 +20,7 @@
   &__link {
     font-family: $font-sans;
     color: grey !important;
-    text-decoration: underline;
+    text-decoration: underline !important;
     font-size: 14px;
     text-align: right;
 

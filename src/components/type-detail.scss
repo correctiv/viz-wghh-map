@@ -1,8 +1,14 @@
 @import '../vars.scss';
+@import '../mixins.scss';
 
 .wghh-type {
   display: block;
   margin-top: 20px;
+  min-height: 230px;
+
+  @include bp-sm {
+    min-height: 120px;
+  }
 
   &__name {
     font-size: 18px;
@@ -10,12 +16,13 @@
     letter-spacing: 0;
     line-height: 28px;
     margin-bottom: 0 !important;
+    color: $red;
   }
 
   // type coloring
-  @for $i from 1 through length($type-colors) {
-    &--type-#{$i} &__name {
-      color: nth($type-colors, $i);
-    }
-  }
+  // @for $i from 1 through length($type-colors) {
+  //   &--type-#{$i} &__name {
+  //     color: nth($type-colors, $i);
+  //   }
+  // }
 }

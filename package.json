@@ -1,17 +1,15 @@
 {
   "name": "wghh-map",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git@github.com:correctiv/viz-wghh-map.git"
   },
   "scripts": {
-    "build": "npm run anon && npm run clear && webpack -p --progress --mode production",
+    "build": "npm run clear && webpack -p --progress --mode production",
     "clear": "rm -rf docs/",
     "clear:all": "rm -rf node_modules/ && npm run clear",
     "dev": "webpack-dev-server --progress --mode development",
-    "watch": "webpack -w --progress --mode development",
-    "anon": "cat ./src/shared/stories.csv | cut -d, -f1,2,3,4,5 > ./src/shared/_stories.csv ; rm -rf ./src/shared/stories.csv ; mv ./src/shared/_stories.csv ./src/shared/stories.csv"
+    "watch": "webpack -w --progress --mode development"
   },
   "devDependencies": {
     "@babel/core": "7.1.0",

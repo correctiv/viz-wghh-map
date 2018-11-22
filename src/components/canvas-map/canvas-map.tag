@@ -20,8 +20,7 @@ import DATA from './data.js'
   })
 
   riot.C.on(riot.E.showStoryDot, story => {
-    const color = this.SHARED.colors[story.ownerType]
-    this.storyDot = drawStoryDot(this.app.stage, this.storyDot, story, color)
+    this.storyDot = drawStoryDot(this.app.stage, this.storyDot, story, this.SHARED.colors[1])
   })
 
   riot.C.on(riot.E.resize, () => {

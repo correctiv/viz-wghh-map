@@ -1,29 +1,36 @@
-eigentuemer_typ_id,bezirk,text,x,y
-1,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
-1,Altona,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,221,280
-2,Blankenese,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,291,266
-2,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
-2,Altona,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,221,280
-2,Blankenese,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,291,266
-2,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
-3,Altona,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,221,280
-3,Blankenese,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,291,266
-3,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
-3,Altona,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,221,280
-3,Blankenese,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,291,266
-4,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
-4,Altona,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,221,280
-4,Blankenese,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,291,266
-4,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
-5,Altona,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,221,280
-5,Blankenese,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,291,266
-5,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
-5,Altona,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,221,280
-6,Blankenese,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,291,266
-6,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
-6,Altona,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,221,280
-6,Blankenese,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,291,266
-7,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
-7,Altona,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,221,280
-7,Blankenese,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,291,266
-7,Eimsbüttel,Qui quis et excepturi a sequi. Eum labore quia autem eum ab placeat. Velit vel ipsam ut quis ratione soluta velit aperiam.,261,315
+ownerType,district,text,x,y
+1,Harburg,"Korrespondenz und Service ist gut bis sehr gut. Miete bisher noch günstig, da momentan noch im Förderprogramm der IFB.",148,429
+1,Hamburg-Nord,"Als Genossenschaftsmitglied bin ich glückliche Miteigentümerin. Es zeigt sich zeigt sich, mit wie geringen Mieten äußerst gut gewohnt und gewirtschaftet werden kann.",261,228
+1,Wandsbek,Der Vermieter ist eine Baugenossenschaft - ein sehr fairer Vermieter!,316,276
+1,Hamburg-Nord,Nur 13% Mietentwicklung in zwölf Jahren. Baugenossenschaft!,275,256
+1,Eimsbüttel,Ich bin seit ca. 30 Jahren Mieter bei dieser Genossenschaft und hatte noch nie Probleme mit ihr :-),177,179
+2,Hamburg-Mitte,"Ich bin Saga-Mieterin und hätte überhaupt kein Problem damit, wenn irgendwo online nachlesbar wäre, zu wem welches Haus der Saga gehört. Eigentlich ein Gebot der Transparenz.",219,316
+2,Eimsbüttel,Nettokaltmiete 2004 betrug 520€. Nettokaltmiete 2018 jetzt mehr als 720€ …und kein Ende in Sicht!,213,258
+2,Altona,"Tatsächlich ist meistens alles okay, und die Miete geht im Vergleich noch, erhöht wurde allerdings in den letzten Jahren auch kräftig",219,316
+2,Hamburg-Mitte,"Bei einer Nettokalt-Miete von derzeit 6,10 €/qm werden wir hier nur ausziehen, wenn wir innerhalb des städtischen Konzerns eine vergleichbare Wohnung finden. Oder sich spontan Reichtum einstellt.",250,380
+2,Altona,"Ich hatte darauf gehofft, dass sich die SAGA nicht an der Preistreiberei beteiligt, die am Mietmarkt allgemein zu beobachten ist. Dem ist nicht so.",210,288
+3,Eimsbüttel,"Serviceaufgaben verteilt er an Firmen seines Sohnes, der die Leistungen abrechnet, aber nichts dafür tut.",213,267
+3,Eimsbüttel,"Es ist wohl unserem guten Verhältnis zu danken, dass ich überhaupt in den Findungsprozess für eine Mieterhöhung aktiv eingebunden werde.",208,260
+3,Hamburg-Mitte,Eigentümer verhalten sich korrekt und bleiben mit der Nettokaltmiete knapp innerhalb der für diese Kategorie üblichen Spanne laut Mietenspiegel.,244,316
+3,Hamburg-Nord,Der jetzige Vermieter plant Abriss des jetzigen Dachgeschosses zur Aufstockung um 2 Etagen für wenige großflächige Penthouse-Wohnungen des denkmalgeschützten Hauses.,248,255
+3,Altona,"Ich habe das Glück, Eigentümerin der von meinen Eltern finanzierten Wohnung zu sein.",185,307
+4,Hamburg-Nord,"Umgeht bei Neuvermietung durch sog. Modernisierung die Mietpreisbremse, setzt mit dann fast doppelte Miete an.",269,244
+4,Altona,"Wegen Eigenbedarfskündigung mussten wir 2016 unsere Wohnung verlassen, die mit über16 € /qm Kaltmiete schon nicht günstig war. Neue im gleichen Stadtteil liegt noch darüber - etwas günstigeres war in unserer Hood nicht zu finden.",190,292
+4,Hamburg-Mitte,"Indexmiete. Nebenkosten werden von Jahr zu Jahr mehr, mittlerweile warm über 1000 euro für knapp 40m2 Wohnung",238,318
+4,Hamburg-Nord,"Die Hausverwaltung verweigert mir und anderen Mietern seit Monaten die berechtigte Mietminderung wegen erheblichen Baulärms, Schmutz etc.",303,263
+4,Hamburg-Nord,"Früher gehörten die Häuser einer Erbengemeinschaft, von der man sogar Weihnachtspost bekam. Danach wurden die Häuser an australische Firma verkauft. Altmieter werden schikaniert, Neuvermietungen bei 19 EUR/qm",244,237
+5,Hamburg-Nord,"Im Februar 2018 wurde Haus verkauft. Dass bei einzelnen Mietern Termine für die Begehung mit Bankgutachtern angefragt werden, lässt kaum Gutes erahnen.",275,258
+5,Altona,"Die Verwaltung der Immobiliengruppe droht uns Mietern damit, die Wohnungen hier abreißen zu lassen, um Neubauten in Eigentumswohnungen zu bauen.",168,288
+5,Hamburg-Nord,"Solange man als Mieter kein Laut von sich gibt, ist alles in Ordnung.",284,254
+5,Altona,Wir kämpfen Jahr für Jahr um die Falschberechnung der jährlichen Betriebskosten. Diverse Mietervereine vertreten fast sämtliche Wohnungen.,209,309
+5,Wandsbek,Die zehnte Wohnung passt endlich für uns als Familie. Wir haben ein gutes Verhältnis zu unserem Vermieter.,346,212
+6,Hamburg-Nord,"Die Renovierung  des Bades und Küche habe ich selbst machen lassen. Selbstverständlich bekomme ich zum Dank alle drei Jahre die ""juristisch einwandfreie"" Mieterhöhung.",287,185
+6,Altona,"Wir haben seit über 4 Jahren Streit mit Vermietungsgesellschaft. Unser Haus gehört Briefkastenfirma zweier Männer, die schon durch kriminelles Verhalten aufgefallen sind.",217,292
+6,Hamburg-Nord ,Es wurden den Mieter eindeutige „freundliche“ Angebote zum Auszug gemacht... unter dem Aspekt der extrem hoch angesetzten Mietanpassungen und Umlagen.,245,236
+6,Harburg,Letzte Renovierung war 1978 als Stromleitungen erneuert wurden. Selbstverständlich erfolgte Mieterhöhung für das heruntergekommene Haus alle 3 Jahre.,195,516
+6,Hamburg-Nord,"Meine Mutter würde gern wissen, wer ihr neuer Eigentümer ist. Einen Mietvertrag mit denen hat sie nicht, nur ein Schreiben zum Eigentumsübergang.",290,198
+7,Hamburg-Nord,Der Häuserkomplex gehörte einer Lebensversicherung. Die Wohnung war völlig verwohnt und äußerst renovierungsbedürftig. Wurde an Immobiliengruppe verkauft. Diese wandelte unsere Mietwohnungen in Eigentumswohnungen um.,243,252
+7,Altona,Wir wohnen hier seit 8 Jahren. Kaltmiete damals 800 Euro. Jetzt 1.100 Euro.,194,294
+7,Eimsbüttel,"Die Stiftung bekam das Haus im August 2011 vererbt, verkaufte es im Februar 2012 an neuen Besitzer. Von diesem wurde es im November 2012 an den jetzigen Eigentümer weiterverkauft.",195,246
+7,Altona,Wir als Eigentümer wollen im solidarischen Verbund miteinander gegen die massiven Immobilienhaie angehen. Grundlage unseres Wirtschaftens ist unser Solidarfonds - durch ihn unterstützen wir einander.,173,292
+7,Altona,"Auf meinem Mietvertrag steht der Name einer diakonischen Stiftung. Durch eine Grundbuchanfrage habe ich erfahren, dass der wahre Eigentümer ein Immobilienfonds ist.",82,287
