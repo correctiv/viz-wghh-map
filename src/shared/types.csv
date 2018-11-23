@@ -1,8 +1,9 @@
 id,name,text
-1,Genossenschaften,"132.000 Mietwohnungen gehören den Genossenschaften. Sie sind die einzige Eigentümergruppe, die alle Adressen ihrer Wohnungen im Internet veröffentlicht. Im CrowdNewsroom gab es keinen einzigen negativen Eintrag zu ihnen."
-2,SAGA,"Die Saga ist die städtischen Wohnungsbaugesellschaft. Ihr gehören mit 132.000 Wohnungen in etwa so viele wie den Genossenschaften, Mieter meldeten uns mehrere Geschichten mit Problemen."
-3,Privatpersonen,"Ein großer Teil der Hamburger Wohnungen ist in privater Hand, was auch am Wohlstand zahlreicher Einwohner liegt. Wie hoch der Bestand genau ist, bleibt unklar. Im CrowdNewsroom sind ein Drittel der gemeldeten Eigentümer privat."
-4,Immobilienriesen,"Vonovia ist mit 11.000 Wohnungen vermutlich der größte Vermieter in Hamburg. Im CrowdNewsroom werden weitere börsennotierte Konzerne genannt, aber auch wachsende Konzerne wie die Akelius GmbH mit 4.300 Wohnungen."
-5,Mittelstand,Familiengeführte Bestandsverwalter oder Immobilienentwickler. Unter den Einträgen finden wir hunderte solcher Firmen mit den unterschiedlichsten Mietergeschichten.
-6,Anonyme,"Hierunter fallen Fonds, bei denen nicht nachvollziehbar ist, woher das Geld kommt. Und Eigentümer mit verschachtelten Firmennetzwerken, die in Steueroasen enden. Bei diesem Typ ist oftmals nicht recherchierbar, wer der Wirtschaftlich Berechtigte ist."
-7,Institutionelle,"Pensionskassen bilden mittlerweile die zweitgrößte Käufergruppe von Immobilien in Deutschland, auch im CrowdNewsroom finden sich einige. Aber auch Kirchen, Versicherungen oder Stiftungen, die im Immobilienmarkt investieren."
+1,Genossenschaften,"132.000 Mietwohnungen gehören den Genossenschaften. Sie sind die einzige Eigentümergruppe, die als Reaktion auf unsere Recherche alle Adressen ihrer Wohnungen im Internet veröffentlicht hat. Im CrowdNewsroom gab es keinen einzigen negativen Eintrag zu ihnen."
+2,Saga,Die Saga ist die städtische Wohnungsbaugesellschaft im Großraum Hamburg. Auch ihr gehören etwa 132.000 Wohnungen. Sie ist damit der drittgrößte Vermieter Deutschlands.
+3,Privatpersonen,"Ein großer Teil der Hamburger Wohnungen ist in privater Hand, was auch am Wohlstand zahlreicher Einwohner liegt. Wie hoch der Bestand genau ist, bleibt unklar. Im CrowdNewsroom sind ein Drittel der gemeldeten Eigentümer privat, es gab positive und negative Hinweise."
+4,"Immobilienriesen
+",Vonovia ist mit 11.000 Wohnungen vermutlich der größte Vermieter in Hamburg. Die Akelius GmbH besitzt 4.300 Wohnungen. Im CrowdNewsroom tauchen weitere börsennotierte Konzerne auf.  
+5,Mittelstand,"Kleine bis mittlere, oft inhabergeführte Immobilienunternehmen. Unter den Einträgen finden wir hunderte solcher Firmen mit den unterschiedlichsten Mietergeschichten."
+6,Anonyme,"Firmen und Fonds, bei denen schwer nachvollziehbar ist, woher das Geld kommt und wo die Mieten am Ende landen. Verschachtelte Firmennetzwerke enden zum Teil in Steueroasen. "
+7,Institutionelle,"Versicherungen, Kirchen oder Stiftungen, Pensionskassen. Letztere bilden mittlerweile die zweitgrößte Käufergruppe von Immobilien in Deutschland."

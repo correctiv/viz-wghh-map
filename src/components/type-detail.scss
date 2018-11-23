@@ -4,10 +4,10 @@
 .wghh-type {
   display: block;
   margin-top: 20px;
-  min-height: 230px;
+  min-height: 250px;
 
   @include bp-sm {
-    min-height: 120px;
+    min-height: 140px;
   }
 
   &__name {
