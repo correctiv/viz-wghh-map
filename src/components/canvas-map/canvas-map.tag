@@ -2,7 +2,6 @@ import setupResponsive from './setup_responsive.js'
 import initPixi from './init_pixi.js'
 import draw from './draw.js'
 import drawStoryDot from './draw_storydot.js'
-import colorize from './colorize.js'
 import DATA from './data.js'
 
 <canvas-map class="wghh-canvas-map">
